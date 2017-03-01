@@ -37,7 +37,9 @@
       </label>
     </checkbox-group>
     <view class="weui-btn-area">
-      <button class="weui-btn" type="primary" bindtap="login">登 录</button>
+      <button class="weui-btn" type="primary" bindtap="login">登 录</button> 
+       <button class="weui-btn" bindtap="reg">注 册</button>
+       <button class="weui-btn" bindtap="getPwd">找回密码</button>
     </view>
   </view>
 </view>

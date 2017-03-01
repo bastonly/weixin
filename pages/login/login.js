@@ -18,6 +18,18 @@ Page({
   },
   login:function(){
     //页面登陆
-    console.log("Hello");
+    // console.log("Hello");
+    wx.redirectTo({
+      url:"/pages/live/live"
+    })
+    // wx.navigateTo({
+    //   url: "/pages/live/live"
+    // })
+  },
+  reg:function(){
+    console.log('reg!')
+  },
+  getPwd:function(){
+    console.log('get Password!')
   }
 })
